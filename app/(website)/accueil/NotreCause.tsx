@@ -6,7 +6,7 @@ export default function NotreCause () {
 	return (
 		<article className={styles.notreCauseArticle}>
 			<ArticleHeader
-				title={"Notre Cause"}
+				title={"Notre cause"}
 				subtitle={"Ce que nous faisons"}
 			/>
 			<div className={styles.notreCauseArticle__sectionsContainer}>

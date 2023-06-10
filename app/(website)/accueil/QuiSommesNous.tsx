@@ -8,8 +8,8 @@ export default function QuiSommesNous () {
 				<h2>Qui sommes-nous ?</h2>
 				<p className={styles.quiSommesNousArticle__section__left__text}>
 					Inspiré(e) par les mouvements sociaux du passé, Rivières du monde a vu le jour en 2000 lorsque
-					certains membres de Paris ont décidé de s'organiser pour faire changer les choses. Très vite,
-					ce groupe spontané s'est transformé en un mouvement à part entière. Notre Mouvement écologique
+					certains membres de Paris ont décidé de s&apos;organiser pour faire changer les choses. Très vite,
+					ce groupe spontané s&apos;est transformé en un mouvement à part entière. Notre Mouvement écologique
 					questionne nos dirigeants en leur rappelant leur responsabilité, et lutte pour proposer des
 					solutions qui transformeront la société.
 				</p>
