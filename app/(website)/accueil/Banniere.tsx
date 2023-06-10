@@ -1,6 +1,5 @@
 import styles from './styles.module.css';
 import Image from 'next/image';
-import BannerImage from '@/public/banniere.webp';
 
 export default function Banniere() {
 	return(

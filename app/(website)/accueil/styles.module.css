@@ -1,3 +1,23 @@
+/* GENERAL */
+.articleHeader {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 50px;
+}
+
+.articleHeader h2 {
+	font-size: 28px;
+}
+
+.articleHeader h3 {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+/* BANNIERE */
+
 .bannerSection {
 	position: relative;
 	text-align: center;
@@ -20,6 +40,8 @@
 	object-fit: cover;
 }
 
+/* QUI SOMMES-NOUS ? */
+
 .quiSommesNousArticle {
 	display: flex;
 	justify-content: space-between;
@@ -28,13 +50,96 @@
 	margin: 0 auto;
 }
 
-.quiSommesNousArticle__left {
+.quiSommesNousArticle__section {
+	width: 49%;
+}
+
+.quiSommesNousArticle__section__left {
 	background-color: #27211e;
 	color: white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 20px;
 	height: 450px;
 }
 
+.quiSommesNousArticle__section__left__text {
+	width: 400px;
+	text-align: center;
+}
+
+.quiSommesNousArticle__section__right {
+	position: relative;
+}
+
+.quiSommesNousArticle__section__right__image {
+	object-fit: cover;
+}
+
+/* NOTRE CAUSE */
+
+.notreCauseArticle {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.notreCauseArticle__sectionsContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.notreCauseArticle__sectionsContainer section div {
+	background-color: #27211e;
+	color: white;
+	text-align: center;
+	margin-top: -4px;
+	height: 200px;
+	padding-top: 45px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* IMPLIQUEZ-VOUS */
+.impliquezVousArticle {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.impliquezVousArticle__rowsContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.impliquezVousRow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.impliquezVousRow__left {
+	position: relative;
+	height: 480px;
+	width: calc(50% - 10px);
+}
+
+.impliquezVousRow__right {
+	background-color: #f7f7f7;
+	width: calc(50% - 10px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	text-align: center;
+}
+
+.impliquezVousRow__right h4 {
+	font-size: 28px;
+}
+
+.impliquezVousRow__right p {
+	width: 400px;
+}
