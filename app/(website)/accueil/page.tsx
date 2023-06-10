@@ -1,4 +1,8 @@
 import { Metadata } from 'next';
+import Banniere from "@/app/(website)/accueil/Banniere";
+import NotreCause from "@/app/(website)/accueil/NotreCause";
+import ImpliquezVous from "@/app/(website)/accueil/ImpliquezVous";
+import QuiSommesNous from "@/app/(website)/accueil/QuiSommesNous";
 
 export const metadata: Metadata = {
 	title: 'Accueil | Rivières du monde',
@@ -8,7 +12,10 @@ export const metadata: Metadata = {
 export default function Page() {
 	return (
 		<main>
-			<h1>Accueil</h1>
+			<Banniere />
+			<QuiSommesNous />
+			<NotreCause />
+			<ImpliquezVous />
 		</main>
 	)
 };
